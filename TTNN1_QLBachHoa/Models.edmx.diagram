@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="722a4234056a46faa58ec15e28b855b4" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="QuanLyBachHoaModel.CHI_TIET_DON_HANG" Width="1.5" PointX="11.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBachHoaModel.CHI_TIET_PHIEU_NHAP" Width="1.5" PointX="8.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBachHoaModel.DON_HANG" Width="1.5" PointX="9" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBachHoaModel.KHACH_HANG" Width="1.5" PointX="6.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBachHoaModel.LOAI_SAN_PHAM" Width="1.5" PointX="3.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBachHoaModel.NHA_CUNG_CAP" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBachHoaModel.NHAN_VIEN" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBachHoaModel.PHIEU_NHAP_KHO" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBachHoaModel.SAN_PHAM" Width="1.5" PointX="6" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBachHoaModel.sysdiagram" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <AssociationConnector Association="QuanLyBachHoaModel.FK_CTDH_DH" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBachHoaModel.FK_CTDH_SP" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBachHoaModel.FK_CTPN_PNK" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBachHoaModel.FK_CTPN_SP" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBachHoaModel.FK_DH_KH" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBachHoaModel.FK_DH_NV" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBachHoaModel.FK_SP_LoaiSP" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBachHoaModel.FK_PNK_NCC" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBachHoaModel.FK_SP_NCC" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBachHoaModel.FK_PNK_NV" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
