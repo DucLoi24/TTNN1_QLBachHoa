@@ -69,7 +69,8 @@
 - **Cơ sở dữ liệu:**  
   - Sử dụng SQL Server, các bảng chính: `SAN_PHAM`, `LOAI_SAN_PHAM`, `NHA_CUNG_CAP`, `NHAN_VIEN`, `KHACH_HANG`, `DON_HANG`, `CHI_TIET_DON_HANG`, `PHIEU_NHAP_KHO`, `CHI_TIET_PHIEU_NHAP`.
   - Tạo cơ sở dữ liệu và các bảng:
-    CREATE DATABASE QuanLyBachHoa;
+```sql
+CREATE DATABASE QuanLyBachHoa;
 USE QuanLyBachHoa;
 GO
 
@@ -190,6 +191,8 @@ CREATE TABLE CHI_TIET_PHIEU_NHAP (
     CONSTRAINT UQ_MaPN_MaSP UNIQUE (MaPN, MaSP) -- Đảm bảo cặp MaPN và MaSP là duy nhất (khóa tổng hợp logic)
 );
 GO
+
+```
   - Chuỗi kết nối cấu hình trong `App.config`:
     <connectionStrings>
       <add name="QuanLyBachHoaEntities" connectionString="metadata=res://*/...;provider=System.Data.SqlClient;provider connection string=&quot;data     source=YOUR_SERVER;initial catalog=YOUR_DATABASE;integrated security=True;MultipleActiveResultSets=True&quot;" providerName="System.Data.EntityClient" />
