@@ -1,6 +1,6 @@
 ﻿namespace TTNN1_QLBachHoa
 {
-    partial class Form1
+    partial class AdminMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -156,15 +156,15 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(469, 270);
+            this.btnExit.Location = new System.Drawing.Point(469, 258);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(134, 121);
+            this.btnExit.Size = new System.Drawing.Size(134, 133);
             this.btnExit.TabIndex = 11;
             this.btnExit.Text = "Thoát";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // Form1
+            // AdminMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
@@ -181,7 +181,7 @@
             this.Controls.Add(this.btnQuanLyDonHang);
             this.Controls.Add(this.btnTaoDonHang);
             this.Controls.Add(this.btnQuanLySanPham);
-            this.Name = "Form1";
+            this.Name = "AdminMenu";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

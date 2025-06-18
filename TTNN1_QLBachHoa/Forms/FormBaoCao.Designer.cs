@@ -46,7 +46,7 @@
             this.tabControl.Location = new System.Drawing.Point(0, 0);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(800, 450);
+            this.tabControl.Size = new System.Drawing.Size(967, 499);
             this.tabControl.TabIndex = 0;
             // 
             // tabDoanhThu
@@ -61,7 +61,7 @@
             this.tabDoanhThu.Location = new System.Drawing.Point(4, 25);
             this.tabDoanhThu.Name = "tabDoanhThu";
             this.tabDoanhThu.Padding = new System.Windows.Forms.Padding(3);
-            this.tabDoanhThu.Size = new System.Drawing.Size(792, 421);
+            this.tabDoanhThu.Size = new System.Drawing.Size(959, 470);
             this.tabDoanhThu.TabIndex = 0;
             this.tabDoanhThu.Text = "Báo cáo Doanh thu";
             this.tabDoanhThu.UseVisualStyleBackColor = true;
@@ -69,7 +69,7 @@
             // lblTuNgay
             // 
             this.lblTuNgay.AutoSize = true;
-            this.lblTuNgay.Location = new System.Drawing.Point(6, 21);
+            this.lblTuNgay.Location = new System.Drawing.Point(87, 16);
             this.lblTuNgay.Name = "lblTuNgay";
             this.lblTuNgay.Size = new System.Drawing.Size(59, 16);
             this.lblTuNgay.TabIndex = 0;
@@ -78,7 +78,7 @@
             // lblDenNgay
             // 
             this.lblDenNgay.AutoSize = true;
-            this.lblDenNgay.Location = new System.Drawing.Point(324, 20);
+            this.lblDenNgay.Location = new System.Drawing.Point(427, 16);
             this.lblDenNgay.Name = "lblDenNgay";
             this.lblDenNgay.Size = new System.Drawing.Size(67, 16);
             this.lblDenNgay.TabIndex = 1;
@@ -86,21 +86,21 @@
             // 
             // dtpTuNgay
             // 
-            this.dtpTuNgay.Location = new System.Drawing.Point(71, 16);
+            this.dtpTuNgay.Location = new System.Drawing.Point(163, 14);
             this.dtpTuNgay.Name = "dtpTuNgay";
             this.dtpTuNgay.Size = new System.Drawing.Size(247, 22);
             this.dtpTuNgay.TabIndex = 2;
             // 
             // dtpDenNgay
             // 
-            this.dtpDenNgay.Location = new System.Drawing.Point(391, 15);
+            this.dtpDenNgay.Location = new System.Drawing.Point(509, 14);
             this.dtpDenNgay.Name = "dtpDenNgay";
-            this.dtpDenNgay.Size = new System.Drawing.Size(253, 22);
+            this.dtpDenNgay.Size = new System.Drawing.Size(258, 22);
             this.dtpDenNgay.TabIndex = 3;
             // 
             // btnXemBaoCaoDoanhThu
             // 
-            this.btnXemBaoCaoDoanhThu.Location = new System.Drawing.Point(650, 14);
+            this.btnXemBaoCaoDoanhThu.Location = new System.Drawing.Point(805, 10);
             this.btnXemBaoCaoDoanhThu.Name = "btnXemBaoCaoDoanhThu";
             this.btnXemBaoCaoDoanhThu.Size = new System.Drawing.Size(120, 28);
             this.btnXemBaoCaoDoanhThu.TabIndex = 4;
@@ -116,13 +116,13 @@
             this.dgvDoanhThu.Name = "dgvDoanhThu";
             this.dgvDoanhThu.ReadOnly = true;
             this.dgvDoanhThu.RowHeadersWidth = 51;
-            this.dgvDoanhThu.Size = new System.Drawing.Size(750, 300);
+            this.dgvDoanhThu.Size = new System.Drawing.Size(920, 386);
             this.dgvDoanhThu.TabIndex = 5;
             // 
             // lblTongDoanhThu
             // 
             this.lblTongDoanhThu.AutoSize = true;
-            this.lblTongDoanhThu.Location = new System.Drawing.Point(20, 375);
+            this.lblTongDoanhThu.Location = new System.Drawing.Point(17, 449);
             this.lblTongDoanhThu.Name = "lblTongDoanhThu";
             this.lblTongDoanhThu.Size = new System.Drawing.Size(113, 16);
             this.lblTongDoanhThu.TabIndex = 6;
@@ -137,7 +137,7 @@
             this.tabTonKho.Location = new System.Drawing.Point(4, 25);
             this.tabTonKho.Name = "tabTonKho";
             this.tabTonKho.Padding = new System.Windows.Forms.Padding(3);
-            this.tabTonKho.Size = new System.Drawing.Size(792, 421);
+            this.tabTonKho.Size = new System.Drawing.Size(959, 470);
             this.tabTonKho.TabIndex = 1;
             this.tabTonKho.Text = "Báo cáo Tồn kho";
             this.tabTonKho.UseVisualStyleBackColor = true;
@@ -176,14 +176,14 @@
             this.dgvTonKho.Name = "dgvTonKho";
             this.dgvTonKho.ReadOnly = true;
             this.dgvTonKho.RowHeadersWidth = 51;
-            this.dgvTonKho.Size = new System.Drawing.Size(750, 335);
+            this.dgvTonKho.Size = new System.Drawing.Size(915, 390);
             this.dgvTonKho.TabIndex = 3;
             // 
             // FormBaoCao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(967, 499);
             this.Controls.Add(this.tabControl);
             this.Name = "FormBaoCao";
             this.Text = "Báo cáo tổng hợp";

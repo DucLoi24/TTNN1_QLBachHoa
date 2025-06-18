@@ -8,12 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TTNN1_QLBachHoa.Forms;
+using TTNN1_QLBachHoa.Services;
 
 namespace TTNN1_QLBachHoa
 {
-    public partial class Form1 : Form
+    public partial class AdminMenu : Form
     {
-        public Form1()
+        private readonly NhanVienService _nvService = new NhanVienService();
+
+        public AdminMenu()
         {
             InitializeComponent();
         }
@@ -61,9 +64,8 @@ namespace TTNN1_QLBachHoa
 
         private void btnTaoDonHang_Click(object sender, EventArgs e)
         {
-            // Mở form tạo đơn hàng
-            FormTaoDonHang formTaoDonHang = new FormTaoDonHang();
-            formTaoDonHang.Show(); // Hiển thị form tạo đơn hàng
+            FormTaoDonHang formTaoDonHang = new FormTaoDonHang("ADMIN");
+            formTaoDonHang.Show();
         }
 
         private void btnQuanLyDonHang_Click(object sender, EventArgs e)
@@ -76,7 +78,7 @@ namespace TTNN1_QLBachHoa
         private void btnTaoPhieuNhapKho_Click(object sender, EventArgs e)
         {
             // Mở form tạo phiếu nhập kho
-            FormTaoPhieuNhapKho formTaoPhieuNhapKho = new FormTaoPhieuNhapKho();
+            FormTaoPhieuNhapKho formTaoPhieuNhapKho = new FormTaoPhieuNhapKho("ADMIN");
             formTaoPhieuNhapKho.Show(); // Hiển thị form tạo phiếu nhập kho
         }
 

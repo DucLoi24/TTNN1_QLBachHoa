@@ -16,6 +16,7 @@ namespace TTNN1_QLBachHoa.Forms
         private readonly SanPhamService _spService = new SanPhamService();
         private readonly KhachHangService _khService = new KhachHangService();
         private readonly DonHangService _dhService = new DonHangService();
+        private string _maNV;
 
         // Giỏ hàng tạm
         private class GioHangItem
@@ -28,13 +29,15 @@ namespace TTNN1_QLBachHoa.Forms
         }
         private List<GioHangItem> _gioHang = new List<GioHangItem>();
 
-        public FormTaoDonHang()
+        public FormTaoDonHang(string maNV)
         {
             InitializeComponent();
+            _maNV = maNV;
             LoadSanPham();
             LoadKhachHang();
             LoadPTTT();
             UpdateTongTien();
+            _maNV = maNV;
         }
 
         // Load danh sách sản phẩm vào combobox
@@ -219,7 +222,7 @@ namespace TTNN1_QLBachHoa.Forms
             {
                 MaDH = GenerateMaDH(),
                 MaKH = cbKhachHang.SelectedValue.ToString(),
-                MaNV = null, // Có thể lấy từ session đăng nhập
+                MaNV = _maNV,
                 NgayTao = DateTime.Now,
                 TongTien = _gioHang.Sum(x => x.ThanhTien) - giamGia,
                 TrangThai = "Đã thanh toán",

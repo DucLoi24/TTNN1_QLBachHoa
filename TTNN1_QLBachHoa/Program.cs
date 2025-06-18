@@ -16,7 +16,7 @@ namespace TTNN1_QLBachHoa
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Login());
 
             if (Environment.OSVersion.Version.Major >= 6)
             {

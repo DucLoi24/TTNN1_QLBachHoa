@@ -57,7 +57,7 @@
             this.dgvPhieuNhap.ReadOnly = true;
             this.dgvPhieuNhap.RowHeadersWidth = 51;
             this.dgvPhieuNhap.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvPhieuNhap.Size = new System.Drawing.Size(770, 180);
+            this.dgvPhieuNhap.Size = new System.Drawing.Size(916, 180);
             this.dgvPhieuNhap.TabIndex = 0;
             this.dgvPhieuNhap.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPhieuNhap_CellClick);
             // 
@@ -128,7 +128,7 @@
             this.groupChiTiet.Controls.Add(this.dgvChiTiet);
             this.groupChiTiet.Location = new System.Drawing.Point(12, 240);
             this.groupChiTiet.Name = "groupChiTiet";
-            this.groupChiTiet.Size = new System.Drawing.Size(770, 200);
+            this.groupChiTiet.Size = new System.Drawing.Size(916, 200);
             this.groupChiTiet.TabIndex = 1;
             this.groupChiTiet.TabStop = false;
             this.groupChiTiet.Text = "Chi tiết phiếu nhập";
@@ -137,13 +137,13 @@
             // 
             this.lblMaPN.Location = new System.Drawing.Point(10, 20);
             this.lblMaPN.Name = "lblMaPN";
-            this.lblMaPN.Size = new System.Drawing.Size(120, 20);
+            this.lblMaPN.Size = new System.Drawing.Size(194, 20);
             this.lblMaPN.TabIndex = 0;
             this.lblMaPN.Text = "Mã PN:";
             // 
             // lblNCC
             // 
-            this.lblNCC.Location = new System.Drawing.Point(189, 20);
+            this.lblNCC.Location = new System.Drawing.Point(210, 20);
             this.lblNCC.Name = "lblNCC";
             this.lblNCC.Size = new System.Drawing.Size(311, 20);
             this.lblNCC.TabIndex = 1;
@@ -151,15 +151,15 @@
             // 
             // lblNV
             // 
-            this.lblNV.Location = new System.Drawing.Point(530, 70);
+            this.lblNV.Location = new System.Drawing.Point(580, 70);
             this.lblNV.Name = "lblNV";
-            this.lblNV.Size = new System.Drawing.Size(180, 20);
+            this.lblNV.Size = new System.Drawing.Size(272, 20);
             this.lblNV.TabIndex = 2;
             this.lblNV.Text = "Nhân viên:";
             // 
             // lblNgay
             // 
-            this.lblNgay.Location = new System.Drawing.Point(530, 18);
+            this.lblNgay.Location = new System.Drawing.Point(580, 20);
             this.lblNgay.Name = "lblNgay";
             this.lblNgay.Size = new System.Drawing.Size(214, 20);
             this.lblNgay.TabIndex = 3;
@@ -169,13 +169,13 @@
             // 
             this.lblTongTien.Location = new System.Drawing.Point(10, 47);
             this.lblTongTien.Name = "lblTongTien";
-            this.lblTongTien.Size = new System.Drawing.Size(180, 20);
+            this.lblTongTien.Size = new System.Drawing.Size(194, 20);
             this.lblTongTien.TabIndex = 4;
             this.lblTongTien.Text = "Tổng tiền:";
             // 
             // lblGhiChu
             // 
-            this.lblGhiChu.Location = new System.Drawing.Point(186, 47);
+            this.lblGhiChu.Location = new System.Drawing.Point(210, 47);
             this.lblGhiChu.Name = "lblGhiChu";
             this.lblGhiChu.Size = new System.Drawing.Size(277, 20);
             this.lblGhiChu.TabIndex = 5;
@@ -189,14 +189,14 @@
             this.dgvChiTiet.ReadOnly = true;
             this.dgvChiTiet.RowHeadersWidth = 51;
             this.dgvChiTiet.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvChiTiet.Size = new System.Drawing.Size(500, 120);
+            this.dgvChiTiet.Size = new System.Drawing.Size(564, 120);
             this.dgvChiTiet.TabIndex = 2;
             // 
             // FormQuanLyPhieuNhapKho
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(940, 450);
             this.Controls.Add(this.dgvPhieuNhap);
             this.Controls.Add(this.txtTimMaPN);
             this.Controls.Add(this.txtTimTenNCC);

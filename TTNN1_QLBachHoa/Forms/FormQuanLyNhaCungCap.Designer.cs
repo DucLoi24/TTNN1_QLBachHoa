@@ -55,117 +55,152 @@
             this.dgvNhaCungCap.Location = new System.Drawing.Point(12, 50);
             this.dgvNhaCungCap.Name = "dgvNhaCungCap";
             this.dgvNhaCungCap.ReadOnly = true;
+            this.dgvNhaCungCap.RowHeadersWidth = 51;
             this.dgvNhaCungCap.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvNhaCungCap.Size = new System.Drawing.Size(400, 350);
+            this.dgvNhaCungCap.Size = new System.Drawing.Size(679, 350);
             this.dgvNhaCungCap.TabIndex = 0;
             this.dgvNhaCungCap.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNhaCungCap_CellClick);
             // 
-            // lblTimKiem
-            // 
-            this.lblTimKiem.Location = new System.Drawing.Point(12, 15);
-            this.lblTimKiem.Size = new System.Drawing.Size(60, 20);
-            this.lblTimKiem.Text = "Tìm kiếm:";
-            // 
-            // txtTimKiem
-            // 
-            this.txtTimKiem.Location = new System.Drawing.Point(75, 12);
-            this.txtTimKiem.Size = new System.Drawing.Size(200, 22);
-            // 
-            // btnTimKiem
-            // 
-            this.btnTimKiem.Location = new System.Drawing.Point(285, 10);
-            this.btnTimKiem.Size = new System.Drawing.Size(75, 25);
-            this.btnTimKiem.Text = "Tìm";
-            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
-            // 
-            // lblMaNCC
-            // 
-            this.lblMaNCC.Location = new System.Drawing.Point(430, 50);
-            this.lblMaNCC.Size = new System.Drawing.Size(80, 20);
-            this.lblMaNCC.Text = "Mã NCC:";
-            // 
             // txtMaNCC
             // 
-            this.txtMaNCC.Location = new System.Drawing.Point(520, 50);
+            this.txtMaNCC.Location = new System.Drawing.Point(787, 55);
+            this.txtMaNCC.Name = "txtMaNCC";
             this.txtMaNCC.Size = new System.Drawing.Size(200, 22);
-            // 
-            // lblTenNCC
-            // 
-            this.lblTenNCC.Location = new System.Drawing.Point(430, 90);
-            this.lblTenNCC.Size = new System.Drawing.Size(80, 20);
-            this.lblTenNCC.Text = "Tên NCC:";
+            this.txtMaNCC.TabIndex = 4;
             // 
             // txtTenNCC
             // 
-            this.txtTenNCC.Location = new System.Drawing.Point(520, 90);
+            this.txtTenNCC.Location = new System.Drawing.Point(787, 95);
+            this.txtTenNCC.Name = "txtTenNCC";
             this.txtTenNCC.Size = new System.Drawing.Size(200, 22);
-            // 
-            // lblDiaChi
-            // 
-            this.lblDiaChi.Location = new System.Drawing.Point(430, 130);
-            this.lblDiaChi.Size = new System.Drawing.Size(80, 20);
-            this.lblDiaChi.Text = "Địa chỉ:";
+            this.txtTenNCC.TabIndex = 6;
             // 
             // txtDiaChi
             // 
-            this.txtDiaChi.Location = new System.Drawing.Point(520, 130);
+            this.txtDiaChi.Location = new System.Drawing.Point(787, 135);
+            this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(200, 22);
-            // 
-            // lblSDT
-            // 
-            this.lblSDT.Location = new System.Drawing.Point(430, 170);
-            this.lblSDT.Size = new System.Drawing.Size(80, 20);
-            this.lblSDT.Text = "SĐT:";
+            this.txtDiaChi.TabIndex = 8;
             // 
             // txtSDT
             // 
-            this.txtSDT.Location = new System.Drawing.Point(520, 170);
+            this.txtSDT.Location = new System.Drawing.Point(787, 175);
+            this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(200, 22);
-            // 
-            // lblEmail
-            // 
-            this.lblEmail.Location = new System.Drawing.Point(430, 210);
-            this.lblEmail.Size = new System.Drawing.Size(80, 20);
-            this.lblEmail.Text = "Email:";
+            this.txtSDT.TabIndex = 10;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(520, 210);
+            this.txtEmail.Location = new System.Drawing.Point(787, 215);
+            this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(200, 22);
+            this.txtEmail.TabIndex = 12;
+            // 
+            // lblMaNCC
+            // 
+            this.lblMaNCC.Location = new System.Drawing.Point(697, 55);
+            this.lblMaNCC.Name = "lblMaNCC";
+            this.lblMaNCC.Size = new System.Drawing.Size(80, 20);
+            this.lblMaNCC.TabIndex = 3;
+            this.lblMaNCC.Text = "Mã NCC:";
+            // 
+            // lblTenNCC
+            // 
+            this.lblTenNCC.Location = new System.Drawing.Point(697, 95);
+            this.lblTenNCC.Name = "lblTenNCC";
+            this.lblTenNCC.Size = new System.Drawing.Size(80, 20);
+            this.lblTenNCC.TabIndex = 5;
+            this.lblTenNCC.Text = "Tên NCC:";
+            // 
+            // lblDiaChi
+            // 
+            this.lblDiaChi.Location = new System.Drawing.Point(697, 135);
+            this.lblDiaChi.Name = "lblDiaChi";
+            this.lblDiaChi.Size = new System.Drawing.Size(80, 20);
+            this.lblDiaChi.TabIndex = 7;
+            this.lblDiaChi.Text = "Địa chỉ:";
+            // 
+            // lblSDT
+            // 
+            this.lblSDT.Location = new System.Drawing.Point(697, 175);
+            this.lblSDT.Name = "lblSDT";
+            this.lblSDT.Size = new System.Drawing.Size(80, 20);
+            this.lblSDT.TabIndex = 9;
+            this.lblSDT.Text = "SĐT:";
+            // 
+            // lblEmail
+            // 
+            this.lblEmail.Location = new System.Drawing.Point(697, 215);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(80, 20);
+            this.lblEmail.TabIndex = 11;
+            this.lblEmail.Text = "Email:";
             // 
             // btnThemMoi
             // 
-            this.btnThemMoi.Location = new System.Drawing.Point(430, 260);
+            this.btnThemMoi.Location = new System.Drawing.Point(697, 265);
+            this.btnThemMoi.Name = "btnThemMoi";
             this.btnThemMoi.Size = new System.Drawing.Size(90, 40);
+            this.btnThemMoi.TabIndex = 13;
             this.btnThemMoi.Text = "Thêm mới";
             this.btnThemMoi.Click += new System.EventHandler(this.btnThemMoi_Click);
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(540, 260);
+            this.btnLuu.Location = new System.Drawing.Point(807, 265);
+            this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(90, 40);
+            this.btnLuu.TabIndex = 14;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(650, 260);
+            this.btnXoa.Location = new System.Drawing.Point(917, 265);
+            this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(90, 40);
+            this.btnXoa.TabIndex = 15;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnLamMoi
             // 
-            this.btnLamMoi.Location = new System.Drawing.Point(540, 320);
+            this.btnLamMoi.Location = new System.Drawing.Point(807, 325);
+            this.btnLamMoi.Name = "btnLamMoi";
             this.btnLamMoi.Size = new System.Drawing.Size(90, 40);
+            this.btnLamMoi.TabIndex = 16;
             this.btnLamMoi.Text = "Làm mới";
             this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
+            // 
+            // txtTimKiem
+            // 
+            this.txtTimKiem.Location = new System.Drawing.Point(75, 12);
+            this.txtTimKiem.Name = "txtTimKiem";
+            this.txtTimKiem.Size = new System.Drawing.Size(200, 22);
+            this.txtTimKiem.TabIndex = 1;
+            // 
+            // btnTimKiem
+            // 
+            this.btnTimKiem.Location = new System.Drawing.Point(285, 10);
+            this.btnTimKiem.Name = "btnTimKiem";
+            this.btnTimKiem.Size = new System.Drawing.Size(75, 25);
+            this.btnTimKiem.TabIndex = 2;
+            this.btnTimKiem.Text = "Tìm";
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
+            // 
+            // lblTimKiem
+            // 
+            this.lblTimKiem.Location = new System.Drawing.Point(12, 15);
+            this.lblTimKiem.Name = "lblTimKiem";
+            this.lblTimKiem.Size = new System.Drawing.Size(60, 20);
+            this.lblTimKiem.TabIndex = 0;
+            this.lblTimKiem.Text = "Tìm kiếm:";
             // 
             // FormQuanLyNhaCungCap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 420);
+            this.ClientSize = new System.Drawing.Size(1026, 420);
             this.Controls.Add(this.lblTimKiem);
             this.Controls.Add(this.txtTimKiem);
             this.Controls.Add(this.btnTimKiem);
@@ -189,6 +224,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhaCungCap)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion

@@ -17,6 +17,7 @@ namespace TTNN1_QLBachHoa.Forms
         private readonly NhaCungCapService _nccService = new NhaCungCapService();
         private readonly PhieuNhapKhoService _pnService = new PhieuNhapKhoService();
         private List<SAN_PHAM> _allSanPham = new List<SAN_PHAM>();
+        private string _maNV;
 
         // Danh sách sản phẩm nhập tạm
         private class NhapKhoItem
@@ -29,12 +30,13 @@ namespace TTNN1_QLBachHoa.Forms
         }
         private List<NhapKhoItem> _phieuNhap = new List<NhapKhoItem>();
 
-        public FormTaoPhieuNhapKho()
+        public FormTaoPhieuNhapKho(string maNV)
         {
             InitializeComponent();
             LoadNCC();
             LoadSanPham();
             UpdateTongTien();
+            _maNV = maNV;
         }
 
         // Load danh sách nhà cung cấp
@@ -202,7 +204,7 @@ namespace TTNN1_QLBachHoa.Forms
             {
                 MaPN = GenerateMaPN(),
                 MaNCC = cbNCC.SelectedValue.ToString(),
-                MaNV = null, // Có thể lấy từ session đăng nhập
+                MaNV = _maNV,
                 NgayNhap = DateTime.Now,
                 TongTienNhap = tongTien,
                 GhiChu = txtGhiChu.Text

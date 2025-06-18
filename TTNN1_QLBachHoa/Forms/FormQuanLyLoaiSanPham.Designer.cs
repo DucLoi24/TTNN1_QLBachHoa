@@ -53,27 +53,27 @@
             this.dgvLoaiSanPham.ReadOnly = true;
             this.dgvLoaiSanPham.RowHeadersWidth = 51;
             this.dgvLoaiSanPham.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvLoaiSanPham.Size = new System.Drawing.Size(400, 350);
+            this.dgvLoaiSanPham.Size = new System.Drawing.Size(491, 350);
             this.dgvLoaiSanPham.TabIndex = 0;
             this.dgvLoaiSanPham.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLoaiSanPham_CellClick);
             // 
             // txtMaLoai
             // 
-            this.txtMaLoai.Location = new System.Drawing.Point(520, 50);
+            this.txtMaLoai.Location = new System.Drawing.Point(611, 51);
             this.txtMaLoai.Name = "txtMaLoai";
             this.txtMaLoai.Size = new System.Drawing.Size(200, 22);
             this.txtMaLoai.TabIndex = 4;
             // 
             // txtTenLoai
             // 
-            this.txtTenLoai.Location = new System.Drawing.Point(520, 90);
+            this.txtTenLoai.Location = new System.Drawing.Point(611, 91);
             this.txtTenLoai.Name = "txtTenLoai";
             this.txtTenLoai.Size = new System.Drawing.Size(200, 22);
             this.txtTenLoai.TabIndex = 6;
             // 
             // txtMoTa
             // 
-            this.txtMoTa.Location = new System.Drawing.Point(520, 130);
+            this.txtMoTa.Location = new System.Drawing.Point(611, 131);
             this.txtMoTa.Multiline = true;
             this.txtMoTa.Name = "txtMoTa";
             this.txtMoTa.Size = new System.Drawing.Size(200, 60);
@@ -81,7 +81,7 @@
             // 
             // lblMaLoai
             // 
-            this.lblMaLoai.Location = new System.Drawing.Point(430, 50);
+            this.lblMaLoai.Location = new System.Drawing.Point(521, 51);
             this.lblMaLoai.Name = "lblMaLoai";
             this.lblMaLoai.Size = new System.Drawing.Size(80, 20);
             this.lblMaLoai.TabIndex = 3;
@@ -89,7 +89,7 @@
             // 
             // lblTenLoai
             // 
-            this.lblTenLoai.Location = new System.Drawing.Point(430, 90);
+            this.lblTenLoai.Location = new System.Drawing.Point(521, 91);
             this.lblTenLoai.Name = "lblTenLoai";
             this.lblTenLoai.Size = new System.Drawing.Size(80, 20);
             this.lblTenLoai.TabIndex = 5;
@@ -97,7 +97,7 @@
             // 
             // lblMoTa
             // 
-            this.lblMoTa.Location = new System.Drawing.Point(430, 130);
+            this.lblMoTa.Location = new System.Drawing.Point(521, 131);
             this.lblMoTa.Name = "lblMoTa";
             this.lblMoTa.Size = new System.Drawing.Size(80, 20);
             this.lblMoTa.TabIndex = 7;
@@ -105,7 +105,7 @@
             // 
             // btnThemMoi
             // 
-            this.btnThemMoi.Location = new System.Drawing.Point(430, 210);
+            this.btnThemMoi.Location = new System.Drawing.Point(521, 211);
             this.btnThemMoi.Name = "btnThemMoi";
             this.btnThemMoi.Size = new System.Drawing.Size(90, 40);
             this.btnThemMoi.TabIndex = 9;
@@ -114,7 +114,7 @@
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(540, 210);
+            this.btnLuu.Location = new System.Drawing.Point(631, 211);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(90, 40);
             this.btnLuu.TabIndex = 10;
@@ -123,7 +123,7 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(650, 210);
+            this.btnXoa.Location = new System.Drawing.Point(741, 211);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(90, 40);
             this.btnXoa.TabIndex = 11;
@@ -132,7 +132,7 @@
             // 
             // btnLamMoi
             // 
-            this.btnLamMoi.Location = new System.Drawing.Point(540, 270);
+            this.btnLamMoi.Location = new System.Drawing.Point(631, 271);
             this.btnLamMoi.Name = "btnLamMoi";
             this.btnLamMoi.Size = new System.Drawing.Size(90, 40);
             this.btnLamMoi.TabIndex = 12;
@@ -167,7 +167,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(800, 420);
+            this.ClientSize = new System.Drawing.Size(843, 420);
             this.Controls.Add(this.lblTimKiem);
             this.Controls.Add(this.txtTimKiem);
             this.Controls.Add(this.btnTimKiem);
