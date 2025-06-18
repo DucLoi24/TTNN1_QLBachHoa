@@ -1,6 +1,5 @@
 # Quản Lý Bách Hóa - TTNN1_QLBachHoa
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/DucLoi24/TTNN1_QLBachHoa/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/DucLoi24/TTNN1_QLBachHoa.svg?style=social)](https://github.com/DucLoi24/TTNN1_QLBachHoa/stargazers)
 
 ## Mô tả
