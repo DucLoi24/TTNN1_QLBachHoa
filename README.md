@@ -80,18 +80,6 @@
         USE QuanLyBachHoa;
         GO
 
-        -- Xóa các bảng nếu chúng đã tồn tại để đảm bảo việc tạo lại sạch sẽ (thứ tự xóa bảng quan trọng)
-        IF OBJECT_ID('dbo.CHI_TIET_DON_HANG', 'U') IS NOT NULL DROP TABLE dbo.CHI_TIET_DON_HANG;
-        IF OBJECT_ID('dbo.CHI_TIET_PHIEU_NHAP', 'U') IS NOT NULL DROP TABLE dbo.CHI_TIET_PHIEU_NHAP;
-        IF OBJECT_ID('dbo.PHIEU_NHAP_KHO', 'U') IS NOT NULL DROP TABLE dbo.PHIEU_NHAP_KHO;
-        IF OBJECT_ID('dbo.DON_HANG', 'U') IS NOT NULL DROP TABLE dbo.DON_HANG;
-        IF OBJECT_ID('dbo.SAN_PHAM', 'U') IS NOT NULL DROP TABLE dbo.SAN_PHAM;
-        IF OBJECT_ID('dbo.LOAI_SAN_PHAM', 'U') IS NOT NULL DROP TABLE dbo.LOAI_SAN_PHAM;
-        IF OBJECT_ID('dbo.NHA_CUNG_CAP', 'U') IS NOT NULL DROP TABLE dbo.NHA_CUNG_CAP;
-        IF OBJECT_ID('dbo.KHACH_HANG', 'U') IS NOT NULL DROP TABLE dbo.KHACH_HANG;
-        IF OBJECT_ID('dbo.NHAN_VIEN', 'U') IS NOT NULL DROP TABLE dbo.NHAN_VIEN;
-        GO
-
         -- 1. Bảng LOAI_SAN_PHAM
         CREATE TABLE LOAI_SAN_PHAM (
             MaLoai   NVARCHAR(50) PRIMARY KEY, -- Khóa chính: Mã loại sản phẩm
