@@ -13,7 +13,7 @@ namespace TTNN1_QLBachHoa.Forms
 {
     public partial class FormQuanLySanPham : Form
     {
-        private readonly SanPhamService _spService = new SanPhamService();
+        private SanPhamService _spService = new SanPhamService();
         private readonly LoaiSanPhamService _loaiService = new LoaiSanPhamService();
         private readonly NhaCungCapService _nccService = new NhaCungCapService();
         private bool _isAdding = false;
@@ -29,6 +29,7 @@ namespace TTNN1_QLBachHoa.Forms
         // Load dữ liệu sản phẩm lên DataGridView
         private void LoadData()
         {
+            _spService = new SanPhamService();
             var data = _spService.GetAll();
             dgvSanPham.DataSource = data;
             dgvSanPham.ClearSelection();

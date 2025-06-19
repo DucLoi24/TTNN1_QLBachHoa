@@ -182,7 +182,7 @@
             this.Controls.Add(this.btnTaoDonHang);
             this.Controls.Add(this.btnQuanLySanPham);
             this.Name = "AdminMenu";
-            this.Text = "Form1";
+            this.Text = "AdminMenu";
             this.ResumeLayout(false);
             this.PerformLayout();
 

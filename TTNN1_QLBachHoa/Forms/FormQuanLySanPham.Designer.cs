@@ -224,7 +224,7 @@
             // 
             this.btnLamMoi.Location = new System.Drawing.Point(906, 383);
             this.btnLamMoi.Name = "btnLamMoi";
-            this.btnLamMoi.Size = new System.Drawing.Size(70, 40);
+            this.btnLamMoi.Size = new System.Drawing.Size(82, 40);
             this.btnLamMoi.TabIndex = 26;
             this.btnLamMoi.Text = "Làm mới";
             this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
